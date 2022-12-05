@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-contato{
+    height: 50px;
+    background-color: #00883d;
+    display: flex;
+    align-items: center;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin:0 20px;
+}
+
+
+.icon{
+    color:white;
+    font-size: 20px;
+}
+
+.dados{
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.etecs{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-etec{
+    height: 150px;
+    width: 180px;
+}
+
+.menu{
+  
+    background-color: #292929;
+    border-top: 4px solid #00883d;
+}
+
+.textMenu{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+}
+
+.textMenu:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.img-1{
+    -webkit-transform: translateY(-12%);
+    transform: translateY(-12%);
+}
+
+.image-group-2-img img {
+    width: 60%;
+}
+
+.img-2{
+    z-index: 1;
+    margin-left: -25%;
+    -webkit-transform: translateY(12%);
+    transform: translateY(12%);
+    margin-bottom: 0;
+}
+.imgNoticia{
+    height: 300px;
+    width: 100%;
+}
+
+h5{
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: #54617a;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 16px;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+.cursos{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 2px solid rgb(231, 223, 223);
+}
+
+.cursos p{
+    font-family: Roboto,sans-serif;
+    color: #8d99ae;
+    font-size: 17px;
+    word-wrap: break-word;
+}
+
+
+.homeA{
+    display: none;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+footer p{
+    color:white;
+    margin:0;
+    padding: 0;   
+}
+
+.fundo-etec{
+    background-image: url('./img/etec.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+.transparencia{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background: rgba(20,20,20,.8);
+    box-shadow: inset 0px 5px 10px rgb(0 0 0 / 70%);
+    padding-top: 40px;
+
+}
+
+.dadosFooter{
+    margin: 0px 2%;
+    vertical-align: top;
+    padding: 30px 0px;
+    opacity: 1;
+}
+
+.dadosFooter p{
+    font-size: 16px;
+    color: rgba(190,190,190,0.8);
+    line-height: 23px;
+    margin-top: 1rem;
+    padding: 0 10px;
+}
+
+.titulo{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    
+}
+
+.acessoViacao{
+    background: #f5f5f5;
+}
+
+.barras{
+    color:#00883d !important;
+}
+
+
+@media (max-width: 992px){
+    .homeA{
+        display: flex;
+    }
+    .homeMenu{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 580px){
+    .espacamento{
+        margin-bottom: 4rem !important;
+    }
+    .img-etec{
+        height: 150px;
+        width: 170px;
+    }
+}
+
+@media (min-width: 320px ) and (max-width: 500px){
+    .espacamento{
+        margin-bottom: 4rem !important;
+    }
+    .img-etec{
+        height: 150px !important;
+        width: 140px !important;
+    }
+    
+    iframe{
+        width: 260px !important;
+    }
+
+    .imgNoticia{
+        width: 285px !important;
+    }
+
+    .fundo-etec{
+        height: 1200px !important;
+        background-image: none;
+    }
+}
+
+@media (min-width: 501px ) and (max-width: 767px){
+
+    .fundo-etec{
+        height: 995px !important;
+        background-image: none;
+    }
+}
+
+@media (min-width: 768px ) and (max-width: 991px){
+
+    .fundo-etec{
+        height: 995px !important;
+        background-image: none;
+    }
+    iframe{
+        width: 300px !important;
+    }
+
+}
